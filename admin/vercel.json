@@ -4,5 +4,9 @@
       "source": "/(.*)",
       "destination": "/"
     }
-  ]
+  ],
+
+  "build": {
+    "installCommand": "npm install react-router-dom"
+  }
 }
